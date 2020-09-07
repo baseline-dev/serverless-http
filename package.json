@@ -21,7 +21,7 @@
     "test:integration": "mocha test/integration/test.js",
     "postpublish": "git push origin master --tags",
     "release": "npm version patch",
-    "publish:npm": "npm run test && npm run release && npm publish --access public"
+    "publish:npm": "npm run release && npm publish --access public"
   },
   "keywords": [
     "serverless",
