@@ -20,7 +20,8 @@
     "posttest": "eslint lib test",
     "test:integration": "mocha test/integration/test.js",
     "postpublish": "git push origin master --tags",
-    "publish:npm": "npm run test:unit && npm run release && npm publish --access public"
+    "release": "npm version patch",
+    "publish:npm": "npm run test && npm run release && npm publish --access public"
   },
   "keywords": [
     "serverless",
