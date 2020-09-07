@@ -1,5 +1,5 @@
 {
-  "name": "serverless-http",
+  "name": "@baseline-dev/serverless-http",
   "version": "2.5.1",
   "description": "Use existing web application frameworks in serverless environments",
   "main": "serverless-http.js",
