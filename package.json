@@ -19,7 +19,8 @@
     "test": "nyc mocha",
     "posttest": "eslint lib test",
     "test:integration": "mocha test/integration/test.js",
-    "postpublish": "git push origin master --tags"
+    "postpublish": "git push origin master --tags",
+    "publish:npm": "npm run test:unit && npm run release && npm publish --access public"
   },
   "keywords": [
     "serverless",
